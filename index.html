@@ -4,12 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&display=swap"
@@ -55,24 +54,24 @@
       </div>
       <div class="items2 filter">
         <!-- <div class="item2container"> -->
-          <div class="ui-container">
-            <div class="user-choice">
-              <img id="user-img" src="" alt="" />
-            </div>
-            <p class="p-choice"> Your choice</p>
+        <div class="ui-container">
+          <div class="user-choice">
+            <img id="user-img" src="" alt="" />
           </div>
-          <div class="ui-container">
-            <p class="count"></p>
-            <div class="desktop-choice hidden">
-              <img id="pc-img" src="" alt="" />
-            </div>
-            <p class="p-choice"> Computer choice</p>
+          <p class="p-choice">Your choice</p>
+        </div>
+        <div class="ui-container">
+          <p class="count"></p>
+          <div class="desktop-choice hidden">
+            <img id="pc-img" src="" alt="" />
           </div>
-          <div class="p-action hidden">
-            <p class="text-action"></p>
-            <button class="again">Play Again</button>
-            <button class="reset">Reset score</button>
-          </div>
+          <p class="p-choice">Computer choice</p>
+        </div>
+        <div class="p-action hidden">
+          <p class="text-action"></p>
+          <button class="again">Play Again</button>
+          <button class="reset">Reset score</button>
+        </div>
         <!-- </div> -->
       </div>
     </main>
@@ -82,9 +81,9 @@
     <div id="myModal" class="modal">
       <div class="modal-content">
         <span class="close">&times;</span>
-        <img src="./images/image-rules.svg" alt="">
+        <img src="./images/image-rules.svg" alt="" />
       </div>
     </div>
-    <script  src="./app/app.js" ></script>
+    <script src="./app/app.js"></script>
   </body>
 </html>
